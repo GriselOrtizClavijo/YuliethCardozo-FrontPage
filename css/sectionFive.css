@@ -1,0 +1,52 @@
+#section-five{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    height: 500px;
+    background-image: url('../assets/fondoSec5.png');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Outfit', sans-serif;
+}
+
+#section-five .imgButton{
+    width: 15px;
+    height: 15px;
+  
+}
+
+#section-five .button-card{
+    
+    background-color: #008391;
+}
+
+#section-five .card-sec-five {
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    z-index: 3;
+}
+
+#section-five .title-section-two{
+    font-size: 30px;
+    font-weight: 10;
+
+}
+
+#section-five  .text-testimonial{
+    width: 900px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-top: 30px;
+
+}
+
+.imgBack{
+    width: 1440px;
+    height: 500px;
+    z-index: 2;
+    position: absolute;
+}

@@ -1,0 +1,119 @@
+#section-six{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background-color: #EDEFF4 ;
+}
+
+.cards-six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.formContact{
+    border: 1px solid #5EA9A9 ;
+    border-radius: 10px;
+    padding: 10px 50px 30px 50px;
+    background-color: #EAECF2;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr fr;
+    grid-row-gap: 20px;
+    
+}
+
+.formContact .block,
+.formContact .blockButton{
+    grid-column: 1 / 3;
+}
+
+.formContact .blockButton{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.formContact button, 
+.formContact input, 
+.formContact textarea
+{
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background-color: #EAECF2;
+    border-bottom: 1px solid #7D8291;
+    outline: none;
+    color: #545965
+}
+
+
+#section-six .formContact .title-section-two{
+    font-size: 30px;
+    font-weight: 10;
+    text-align: center;
+    width: 100%;
+}
+
+.cards-six .card-small{
+    width: 30%;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+
+.tittle-card-Small{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #545965;
+    bottom: 0;
+}
+
+.text-card-Small{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-bottom: 3px;
+}
+
+.formContact .button-card-six {
+    width: 100px;
+    height: 50px;
+    background-color: #008391;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+
+.formContact .button-card-six:hover,
+.formContact .button-card-six:focus {
+ color: #545965;
+
+}
+
+.img-card-small{
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between; 
+    height: 200px;
+}
+
+.img-contact{
+    width: 30px;
+    height: 30px;
+    padding-left: 40px;
+    
+}
+
+.img-line{
+    width: 70%;
+}

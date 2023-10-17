@@ -35,14 +35,14 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 
 }
 
   .figure{
     width: 350px;
     height: 500px;
-    margin-top: 250px;
+    margin-top: 300px;
   }
 
   .text-content {
@@ -57,13 +57,13 @@
     padding: 30px;
     border-radius: 10px;
     z-index: 1;
-    margin-top: 250px;
+    margin-top: 300px;
   }
 
 
   .polygon{
     z-index: 3;
-    margin-right: -80px;
+    margin-right: -150px;
     transform: rotate(0deg);
   }
 
@@ -91,8 +91,12 @@
  
   .text-content {
     margin-left: 90px;
+    margin-top:250px;
   }
 
+  .figure{
+    margin-top: 250px;
+  }
 
 }
 
@@ -100,6 +104,7 @@
 @media only screen and (min-width: 1112px) and (max-width: 1365px) {
   
   .card {
+   
     height: 900px;
   }
 
@@ -126,8 +131,9 @@
   }
 
 }
-
-@media only screen and (min-width: 720px) and (max-width: 1111px) and (orientation: portrait) {
+/* 
+@media only screen and (min-width: 375px) and (max-width: 720px) {
+  
 
   .card {
     display: block;
@@ -149,17 +155,8 @@
     transform: rotate(90deg);
     margin-right: 0px;
   
-  } 
-
+  } */
 
 }
-
-/* 
-@media only screen and (min-width: 375px) and (max-width: 720px) {
-  
-
-
-
-}*/
 
 

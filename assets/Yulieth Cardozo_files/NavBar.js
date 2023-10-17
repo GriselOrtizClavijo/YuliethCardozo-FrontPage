@@ -2,7 +2,6 @@
 window.addEventListener('scroll', () => {
    const sectionOne = document.getElementById('section-one');
    const navbar = document.querySelector('.navbar');
-   
  
    if (sectionOne && navbar) {
      const sectionOneBottom = sectionOne.getBoundingClientRect().bottom;

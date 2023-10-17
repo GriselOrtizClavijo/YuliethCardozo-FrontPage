@@ -115,23 +115,13 @@
   }
 
   @media only screen and (min-width: 1112px) and (max-width: 1365px) {
-
-
-    #section-three{
-        height: 920px;
-    }
     .container-cards{
-      padding-top: 0px;
-      gap: 50px;
-    }
-
-    .img-card{
-        width: 380px;
-        height: 280px;
+      padding-top: 20px;
+      gap: 40px;
     }
 
     .rec-card{
-      top: 210px;
+      top: 220px;
   }
       
   }

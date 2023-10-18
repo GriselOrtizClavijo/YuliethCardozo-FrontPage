@@ -51,7 +51,7 @@ function Home() {
   
                                 <div class="contact-item">
                                   <img src=${email} class="icono" alt="Email">
-                                  <p><a href="mailto:clogopedia.visualut@gmail.com">clogopedia.visualut@gmail.com</a></p>
+                                  <p><a href="mailto:yuliethcardozo@barcelonalogopeda.com">yuliethcardozo@barcelonalogopeda.com</a></p>
                                 </div>
   
                                 <div class="contact-item">
@@ -70,7 +70,7 @@ function Home() {
                             <img src=${logopeda} class='logopeda-img' alt = 'logopeda'/>
                             <h3 class= 'text2-section-1'>PRESENCIAL Y ONLINE</h3>
                             <h4 class = 'text3-section-1'>NIÑOS Y ADULTOS</h4>
-                          </div>;
+                          </div>
                           `
 
       const footerSectionOne = `<div>

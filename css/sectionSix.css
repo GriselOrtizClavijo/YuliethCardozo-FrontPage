@@ -4,7 +4,7 @@
     align-items: center; 
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: #EDEFF4 ;
 }
 
@@ -135,26 +135,26 @@
 @media only screen and (min-width: 1024px) and (max-width: 1339px){
 
     #section-six{
-        height: 700px;
+        height: 680px;
     }
-
-    .responsive-version{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .formContact, .card-small {
-        width: 100%; 
-        text-align: left; 
-        
-      }
 
     .cards-six{
         display: none;
     }
 
-    
+    .responsive-version{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 200px;
+    }
+
+    .formContact, .card-small {
+        width: 100%; 
+        text-align: left; 
+
+      }
+
     .formContact{
         margin-bottom: 20px;
     }

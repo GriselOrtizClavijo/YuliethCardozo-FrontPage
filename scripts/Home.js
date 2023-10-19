@@ -31,7 +31,11 @@ function Home() {
                             <img src=${logo } class='logo' alt='logo'/>
                             <img src=${logopedaSmall} class='logopedaNav' alt='logo'/>
                         </div>
-                        <ul class="listNav">
+
+                        <div class="imgNavBar">
+                        <img src="menu-icon.png" alt="Menú" class="menuIcon">
+                        </div>
+                        <ul class="listNav" id="navList">
                             <li><a href="#section-one">Inicio</a></li>
                             <li><a href="#section-two">Sobre mi</a></li>
                             <li><a href="#section-three">Servicios</a></li>
@@ -45,8 +49,8 @@ function Home() {
       const bannerContact = `<div class='banner-contact'>
                               <div class="contact-bar">
                                 <div class="contact-item">
-                                  <img src=${direccion} class="icono" alt="Dirección">
-                                  <p>C. de Pau Claris, 162, 8-5</p>
+                                  <img src=${direccion} class="icono address" alt="Dirección">
+                                  <p class="address">C. de Pau Claris, 162, 8-5</p>
                                 </div>
   
                                 <div class="contact-item">
@@ -59,6 +63,7 @@ function Home() {
                                   <p><a href="tel:+34678436616">(+34) 678 43 66 16</a></p>
                                 </div>
                                 </div> 
+                               
                                 <div class="social-icons">
                                   <a href="/testimonios"><img src=${facebook} alt="Facebook" class="iconors"></a>
                                   <a href="/reservar"><img src=${instagram} alt="Instagram" class="iconors"></a>

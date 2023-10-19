@@ -1,5 +1,6 @@
+
 function starCarousel (){
-   //Estructura javascript para carrusel
+
    const btnLeft = document.querySelector('.btn-left');
    const btnRight = document.querySelector('.btn-right');
    const sliderContainer = document.querySelector('#slider-id');

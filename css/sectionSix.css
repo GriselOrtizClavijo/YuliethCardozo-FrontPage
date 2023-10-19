@@ -4,7 +4,7 @@
     align-items: center; 
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 600px;
     background-color: #EDEFF4 ;
 }
 
@@ -24,8 +24,8 @@
     border-radius: 10px;
     padding: 10px 50px 30px 50px;
     background-color: #EAECF2;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     display: grid;
     grid-template-columns: 1fr fr;
     grid-row-gap: 20px;
@@ -49,7 +49,7 @@
 .formContact textarea
 {
     width: 100%;
-    padding: 0.7em;
+    padding: 1px;
     border: none;
     background-color: #EAECF2;
     border-bottom: 1px solid #7D8291;
@@ -59,8 +59,8 @@
 
 
 #section-six .formContact .title-section-two{
-    font-size: 30px;
-    font-weight: 10;
+    font-size: 35px;
+    font-weight: 300;
     text-align: center;
     width: 100%;
 }

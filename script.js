@@ -52,7 +52,9 @@ function starCarousel (){
 document.addEventListener("DOMContentLoaded", function() { 
     const app = document.getElementById('app');
 
+   
     app.appendChild(Home());  
+    setupNavbar()
     starCarousel();
     app.appendChild(AboutMe()); 
     app.appendChild(Services());

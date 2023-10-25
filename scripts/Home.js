@@ -22,29 +22,40 @@ function Home() {
     const instagram = './assets/instagram.png';
     const linkedIn= './assets/linkedIn.png';
   
+  
       // Crear elementos HTML
       const sectionHome = document.createElement('section');
       sectionHome.id='section-one'
   
-      const navbar = `<nav class= 'navbar'>
+      const navbar = `<nav class= 'navbar '>
                         <div class='imgNavBar'>
-                            <img src=${logo } class='logo' alt='logo'/>
+                            <img src=${logo} class='logo' alt='logo'/>
                             <img src=${logopedaSmall} class='logopedaNav' alt='logo'/>
                         </div>
 
                         <div class="imgNavBar">
                         <img src="menu-icon.png" alt="Menú" class="menuIcon">
                         </div>
-                        <ul class="listNav" id="navList">
-                            <li><a href="#section-one">Inicio</a></li>
-                            <li><a href="#section-two">Sobre mi</a></li>
-                            <li><a href="#section-three">Servicios</a></li>
-                            <li><a href="#section-four">Testimonios</a></li>
-                            <li><a href="#section-five">Reservar</a></li>
-                            <li><a href="#section-six">Contacto</a></li>
-                        </ul>
+                          <ul class="listNav">
+                              <li class="nav_line"><a href="#section-one">Inicio</a></li>
+                              <li class="nav_line"><a href="#section-two">Sobre mi</a></li>
+                              <li class="nav_line"><a href="#section-three">Servicios</a></li>
+                              <li class="nav_line"><a href="#section-four">Testimonios</a></li>
+                              <li class="nav_line"><a href="#section-five">Reservar</a></li>
+                              <li class="nav_line"><a href="#section-six">Contacto</a></li>
+                          </ul>
+                          <button class="nav-toggle" >
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="color: #545965">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 6l16 0"></path>
+                              <path d="M4 12l16 0"></path>
+                              <path d="M4 18l16 0"></path>
+                            </svg>  
+                          </button>
                     </nav>
+  
                     `
+    
       
       const bannerContact = `<div class='banner-contact'>
                               <div class="contact-bar">
@@ -81,11 +92,12 @@ function Home() {
       const footerSectionOne = `<div>
                                 <img src = ${fondo1} class= 'img-white'/>
                                 <img src = ${fondo2} class = 'img-green'/>
-                               </div>;
+                               </div>
                               `
    
       const slider = `
                     <div class='container-carousel'>
+                 
                       <div class='slider' id='slider-id'>
                         <section class='slider-section'>
                            <img src=${sliderOne} alt="photo-slider1"></img>
@@ -112,8 +124,8 @@ function Home() {
                       </div>
   
                     </div>
+                    
                     `
-     
   
       // Estructurar el DOM
       sectionHome.innerHTML += navbar;

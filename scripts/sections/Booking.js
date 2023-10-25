@@ -12,7 +12,7 @@ function Booking () {
               <div class='card-sec-five'>
                 <article >
                     <h3 class='title-section-two'>RESERVAR</h3>
-                    <p class= 'text-testimonial'>Descubre por qué mis pacientes me recomiendan. Sus testimonios son la mejor manera de conocer cómo mi trabajo ha transformado sus vidas. ¡Haz clic en el botón para conocer sus experiencias!</p>
+                    <p class= 'text-testimonial'>¿Listo para experimentar la diferencia en tu salud? Reserva una cita conmigo, una logopeda comprometida con tu bienestar. ¡Haz clic en el botón para agendar tu consulta!</p>
                     <a href="https://www.doctoralia.es/yulieth-cardozo-viera/logopeda/barcelona" class='button-card'>
                         RESERVAR
                         <img src =${photoButton} class='imgButton'/> 

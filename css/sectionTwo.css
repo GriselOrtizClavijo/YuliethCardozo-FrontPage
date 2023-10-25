@@ -10,6 +10,10 @@
   
 }
 
+.bars_menu{
+  display:none;
+}
+
 .div-title{
     width: 600px;
     text-align: center;
@@ -36,7 +40,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 
@@ -68,15 +72,16 @@
     margin-right: -80px;
     transform: rotate(0deg);
   }
-s
+
   .subtitle2{
     font-weight: 400;
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 15px;
   }
 
   ul {
     list-style-image: url(../assets/vineta.png); 
+    padding-left: 20px;
   }
 
   .description{
@@ -164,31 +169,54 @@ s
   }
 
 } */
-/* 
-@media only screen and (min-width: 720px) and (max-width: 1111px) and (orientation: portrait) {
+
+@media only screen and (min-width: 375px) and (max-width: 720px){
 
   .card {
     display: block;
+    
   }
+
+  .div-title{
+    width: 400px;
+    top: 80px;
+  
+}
   
   .textInitial{
-    font-size: 18px;
+    font-size: 15px;
+    line-height: normal;
   }
   
   .text-content {
-      margin: -20px auto 0;
+      margin: -30px auto 0;
+      font-size: 12px;
+      width: 350px;
   }
   
   .figure{
-    margin-top: 230px;
+    margin-top: 180px;
+    width: 250px;
+    height: 350px;
   }
   
   .polygon{
     transform: rotate(90deg);
     margin-right: 0px;
-  
-  }  */
+  }  
 
+  .subtitle2{
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+
+  .line{
+    max-width: 340px;
+  }
+
+  
+}
 
 
 

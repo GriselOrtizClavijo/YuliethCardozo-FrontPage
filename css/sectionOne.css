@@ -7,9 +7,19 @@
   height: 850px;
   position:relative;
 }
+
+.bars_menu{
+  display:none;
+}
+
+.nav-toggle{
+  display: none;
+}
+
 .menuIcon{
   display: none;
 }
+
 .container-carousel{
   position: relative;
   width: 100%;
@@ -75,7 +85,7 @@
 
 .navbar {
   width: 100%; 
-  position: fixed;
+  position: absolute;
   background-color: #fefefedb;
   display: flex;
   z-index: 100;
@@ -115,7 +125,7 @@ a {
 
 a:hover,
 .listNav:hover {
-  color: #5EA9A9;
+  font-weight: 400;
   font-size: 20px;
 }
 
@@ -222,7 +232,7 @@ a:hover,
 
 .text2-section-1{
   font-size: 50px;
-  font-weight: 90;
+  font-weight: 200;
   text-align: left;
   color:#5EA9A9
 }
@@ -253,10 +263,9 @@ a:hover,
 @media only screen and (min-width: 1024px) and (max-width: 1339px){ 
 
   #section-one {
-
     height: 800px;
-
   }
+
 
   .banner-contact{
     padding-left: 10px;
@@ -297,6 +306,9 @@ a:hover,
 
 @media only screen and (min-width: 375px) and (max-width: 720px){
 
+  #section-one {
+    height: 450px;
+  }
 
   .banner-contact{
     justify-content: space-between;
@@ -311,7 +323,6 @@ a:hover,
    padding-bottom: 8px;
   }
 
-  
   .contact-bar .address{
     display: none;
   }
@@ -327,7 +338,6 @@ a:hover,
     font-size: 12px;
   }
   
-  
   .social-icons a {
     padding-right: 15px;
   }
@@ -337,54 +347,73 @@ a:hover,
     height: 18px;
   }
 
-
   /*Barra de navegación*/
 
+  #section-one .navbar {
+  position: absolute;
+  justify-content:flex-start;
+  padding-left: 20px;
+  
+} 
 
-.navbar {
-  width: 100%; 
+ 
+.bars_menu{
+  display: none;
   position: fixed;
-  background-color: #fefefedb;
+  background-color:#008391;
+  z-index: 120;
+  margin-top: 100px;
+  float: right;
+  right: 0 ;
+  line-height: 50px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  transition: left 2s; 
+}
+
+.bars_menu.show {
+  display: block;
+  width: 45%
+}
+
+.bars_menu ul li a{
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.nav-toggle{
   display: flex;
-  z-index: 100;
-  box-shadow: 0px 4px 4px 0px #00000040;
-  justify-content: space-evenly;
-  align-items: center;
-  left: 0; 
-  top: 0;
-  right: 0; 
-  transition: width 0.3s; 
+  border: none;
+  background-color: transparent; 
+
 }
 
-.listNav{
-  list-style: none;
-  display: flex;
+.navbar a {
+  display: none;
+} 
+
+.bars_menu ul {
+  list-style-type: none; /* Esto elimina las viñetas */
+  padding-top: 30px;
 }
 
-.listNav li {
-  margin-right: 30px; 
+.bars_menu .close-icon{
+  position: absolute;
+  font-weight: 200;
+  font-size: 30px;
+  color: #FFFFFF;
+  right: 0;
+  margin-right: 20px;
+ 
 }
-
-.listNav li:last-child {
-  margin-right: 0;
-}
-
-
-a {
-  font-weight: 100;
-  color:#545965;
-  text-decoration: inherit;
-  font-size: 20px;
-  letter-spacing: 0em;
-  text-align: left; 
-  transition: all 0.3s;
-  font-size: 18px;
-}
-
-a:hover,
-.listNav:hover {
-  color: #5EA9A9;
-  font-size: 20px;
+.bars_menu .line{
+  position: absolute;
+  z-index: 400;
+  width:180px; 
+  height: 1px;
+  left: 0;
+  border: .1px solid rgba(255, 255, 255, 0.199);
 }
 
   /* Estilos para el logotipos de la barra de navegación */
@@ -392,23 +421,43 @@ a:hover,
     width: 70px;
     height: 70px;
     top: 6px;
-    left: 76px
-  }
-  
-  .logopedaNav{
-    padding-bottom:20px;
-    width: 130px
+    left: 30px;
   }
 
-.imgNavBar 
- {
-  text-align: left;
-  padding-left: 0;
-  align-items: center
+/*section one*/
+.in-section-one{
+  margin-left: 80px;
+  top: 50%;
+}
 
-} 
+.logopeda-img{
+  width: 270px;
+  height: 35px;
+}
 
 
+.text2-section-1{
+  font-size: 25px;
+}
+
+ .text3-section-1{
+  font-size: 18px;
+}
+
+/*Estilos carrusel*/
+
+.container-carousel{
+  position: absolute;
+  height: 450px;
+}
+
+.img-white{
+  height: 106px;
+}
+
+.img-green{
+  height: 131px;
+}
 
  }
 

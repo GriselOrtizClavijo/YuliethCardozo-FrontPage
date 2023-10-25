@@ -23,6 +23,7 @@
     grid-template-rows: repeat(2, 1fr); 
     grid-template-columns: repeat(2, 1fr); 
     gap: 90px;
+    padding-bottom: 100px;
 }
 
 
@@ -43,7 +44,8 @@
     width: 300px;
     height: 110px;
     z-index: 10;
-    border-color: #5EA9A9;
+    border: 1px solid  #5EA9A9;
+    border-radius: 10px;
 }
 
 .sub-card{
@@ -136,4 +138,52 @@
       top: 210px;
   }
       
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 720px){
+
+
+    #section-three{
+        height: 100%
+    }
+    .container-cards{
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+       
+    }
+    
+    .img-card{
+        width: 300px;
+        height: 200px;
+    }
+
+    .rec-card{
+        top: 150px;
+        width: 250px;
+        height: 100px;
+        left: 25px;
+    }
+    
+    .sub-card{
+        width: 250px;
+        font-size: 15px;
+        font-weight: 400;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .text-card{
+       
+        font-size: 12px;
+        text-align: justify;
+        width: 230px;
+        padding: 10px 10px 10px 10px;
+        font-weight: 200;
+    }
+    
+
   }

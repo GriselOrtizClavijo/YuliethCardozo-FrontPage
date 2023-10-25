@@ -78,49 +78,6 @@ function Contact()  {
                                  </div>
                 </div>`
 
-//   const cards = `
-        //      
-        //             <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
-        //             <input type="hidden" name="_captcha" value="false">
-        //         </form>
-        //         <div class="container-img-card-small-card-small">       
-        //         <div class='img-card-small'>
-
-        //                 <img src =${direccion} class="img-contact"/> 
-        //                 <a href="mailto:info@barcelonalogopeda.com"><img src =${email} class="img-contact"/></a> 
-        //                 <a href="tel:+34678436616"><img src =${telefono} class="img-contact"/></a> 
-
-        //         </div>
-
-        //         <div class='card-small' >
-        //                 <div>
-        //                 <h4 class= 'tittle-card-Small'>Dirección</h4>       
-        //                 <h5 class= 'text-card-Small'>C. de Pau Claris, 162, 8-5</h5>
-        //                 </div>
-
-        //                 <img src =${line}  class="img-line"/> 
-                         
-        //                 <div>
-        //                 <a href="tel:+34678436616">
-        //                 <h4 class= 'tittle-card-Small'>Celular</h4>
-        //                 <h5 class= 'text-card-Small'>(+34) 678 43 66 16</h5>
-        //                 </a>
-        //                 </div>
-
-        //                 <img src =${line} class="img-line"/> 
-
-        //                 <div>
-        //                 <a href="mailto:info@barcelonalogopeda.com">
-        //                 <h4 class= 'tittle-card-Small'>Correo</h4>
-        //                 <h5 class= 'text-card-Small'>info@barcelonalogopeda.com</h5>
-        //                 </a>
-        //                 </div>
-
-        //         </div>
-        //         </div>
-        //       </div>
-        //       `
-
 const responsiveCards = `
                         <div class='responsive-version'>
                         <form action="https://formsubmit.co/26e216becfb53b6b4c9174083f43c60a" method="POST" class='formContact' >
@@ -150,30 +107,37 @@ const responsiveCards = `
                         <div class="container-img-card-small-card-small">       
         
                         <div class='card-small' >
-                                <div >
+                                <div class="contact-small-card" >
+                                <a href="https://maps.app.goo.gl/t5peeFNCpdte82o1A">
                                 <img src =${direccion} class="img-contact"/> 
-                                <h4 class= 'tittle-card-Small'>Dirección</h4>       
-                                <h5 class= 'text-card-Small'>C. de Pau Claris, 162, 8-5</h5>
+                                        <div class="text-container">
+                                        <h4 class= 'tittle-card-Small'>Dirección</h4>       
+                                        <h5 class= 'text-card-Small'>C. de Pau Claris, 162, 8-5</h5>
+                                        </div>
+                                </a>
                                 </div>
 
                                 <img src =${line}  class="img-line"/> 
                                 
-                                <div>
+                                <div class="contact-small-card">
                                 <a href="tel:+34678436616">
                                 <img src =${telefono} class="img-contact"/> 
-                                
-                                <h4 class= 'tittle-card-Small'>Celular</h4>
-                                <h5 class= 'text-card-Small'>(+34) 678 43 66 16</h5>
+                                        <div class="text-container">
+                                        <h4 class= 'tittle-card-Small'>Celular</h4>
+                                        <h5 class= 'text-card-Small'>(+34) 678 43 66 16</h5>
+                                        </div>
                                 </a>
                                 </div>
 
                                 <img src =${line} class="img-line"/> 
 
-                                <div>
+                                <div class="contact-small-card">
                                 <a href="mailto:info@barcelonalogopeda.com">
-                                <img src =${email} class="img-contact mail"/> 
-                                <h4 class= 'tittle-card-Small'>Correo</h4>
-                                <h5 class= 'text-card-Small'>info@barcelonalogopeda.com</h5>
+                                <img src =${email} class="img-contact mail"/>
+                                        <div class="text-container"> 
+                                        <h4 class= 'tittle-card-Small'>Correo</h4>
+                                        <h5 class= 'text-card-Small'>info@barcelonalogopeda.com</h5>
+                                        </div>
                                 </a>
                                 </div>
 

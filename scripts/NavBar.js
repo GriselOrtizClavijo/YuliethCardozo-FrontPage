@@ -1,35 +1,38 @@
-// function setupNavbar() {
-//   // Obtiene referencias a los elementos necesarios
-//   const menuIcon = document.getElementById('menuIcon');
-//   const navList = document.getElementById('navList');
+function setupNavbar() {
 
-//   // Agrega un controlador de eventos para hacer clic en el ícono del menú
-//   menuIcon.addEventListener('click', toggleNav);
-
-//   // Función para mostrar u ocultar la lista de elementos de navegación
-//   function toggleNav() {
-//     navList.classList.toggle('show');
-//   }
-
-//   // Opcional: Cerrar el menú si se hace clic en un enlace
-//   const navLinks = navList.querySelectorAll('a');
-//   navLinks.forEach((link) => {
-//     link.addEventListener('click', () => {
-//       navList.classList.remove('show');
-//     });
-//   }
+  const navIcon = document.querySelector('.nav-toggle');
+  const navList = document.querySelector('.bars_menu');
+  const closeIcon = document.querySelector('.close-icon');
+  const linksNav = document.querySelectorAll('.lineNavBar')
 
 
-//   // Opcional: Cerrar el menú si se hace clic fuera de él
-//   document.addEventListener('click', (event) => {
-//     if (!menuIcon.contains(event.target) && !navList.contains(event.target)) {
-//       navList.classList.remove('show');
-//     }
-//   });
-// }
+    navIcon.addEventListener('click', toggleNav);
 
-// Llama a la función para configurar la barra de navegación
-setupNavbar();
+      function toggleNav() {
+        navList.classList.add('show')
+        navIcon.style.display = 'none';
+      }
+
+
+    closeIcon.addEventListener('click', closeNav)
+
+    function closeNav(){ 
+      navList.classList.remove('show');
+      navIcon.style.display = 'block';
+    }
+
+
+    linksNav.forEach(link => {
+        link.addEventListener('click', () => {
+          navList.classList.remove('show');
+          navIcon.style.display = 'block';
+        });
+      });
+
+    
+     
+  }
+
 
 
 window.addEventListener('scroll', () => {
@@ -43,9 +46,12 @@ window.addEventListener('scroll', () => {
      if (sectionOneBottom <= 0) {
        navbar.style.position = 'fixed';
        navbar.style.top = '0';
+       navIcon.classList.add('section-one-menu-icon'); 
      } else {
        navbar.style.position = 'absolute';
        navbar.style.top = '63px';
      }
    }
  });
+
+ setupNavbar()

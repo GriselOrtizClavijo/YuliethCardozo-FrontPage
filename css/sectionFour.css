@@ -69,3 +69,51 @@
     bottom:0;
     width: 100%;
 }
+
+@media only screen and (min-width: 375px) and (max-width: 720px){
+    #section-four{
+        height: 380px;
+    }
+    
+.card-sec-four .img-card{
+    display: none;
+}
+
+.cards-section-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.card-sec-four{
+    width: 380px;
+    margin-top: 60px;
+}
+
+.card-sec-four .title-section-two{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.text-testimonial{
+    width: 400px;
+    height: 150px;
+    line-height: 20px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.button-card{ 
+    height: 100px;
+    width: 450px;
+    padding: 10px;
+}
+
+.text-testimonial{
+    height: 80px;
+}
+}

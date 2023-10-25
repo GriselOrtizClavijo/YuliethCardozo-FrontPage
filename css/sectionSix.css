@@ -199,3 +199,77 @@
       
 
 }
+
+@media only screen and (min-width: 375px) and (max-width: 720px){
+    #section-six{
+        height: 880px;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .cards-six{
+        display: none;
+    }
+
+    #section-six .formContact .title-section-two{
+        font-size: 35px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+
+    .responsive-version{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+
+    .formContact{
+        margin-bottom: 20px;
+    }
+
+
+    .text-card-Small{
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .tittle-card-Small{
+        font-size: 18px;
+    }
+    
+ 
+
+    .card-small, .img-contact {
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-right: 20px;
+      
+      }
+
+      #section-six  .text-container{
+        font-size: 18px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+    
+       .contact-small-card a{
+        display: flex;
+        width: 300px;
+        padding-top: 20px;
+        
+    }
+
+      
+    .img-line {
+    width: 200px;
+    transform: rotate(0deg);
+    height: 100%;
+    margin-left: 70px;
+    }
+
+
+}

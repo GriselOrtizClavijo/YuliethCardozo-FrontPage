@@ -45,9 +45,10 @@
 }
 
   .figure{
-    width: 350px;
+    width: 380px;
     height: 500px;
     margin-top: 250px;
+    border-radius: 10px;
   }
 
   .text-content {

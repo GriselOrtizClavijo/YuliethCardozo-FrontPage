@@ -16,8 +16,6 @@
   display: none;
 }
 
-
-
 .container-carousel{
   position: relative;
   width: 100%;
@@ -80,21 +78,6 @@
 
 /* Estilos barra de navegación */
 
-/* #section-one .navbar {
-  position: absolute;
-  top: 63px;
-  width: 100%; 
-  background-color: #fefefedb;
-  display: flex;
-  z-index: 100;
-  box-shadow: 0px 4px 4px 0px #00000040;
-  justify-content: space-evenly;
-  align-items: center;
-  left: 0; 
-  top: 0;
-  right: 0; 
-  transition: width 0.3s; 
-} */
 
 
 #section-one .navbar {
@@ -275,7 +258,7 @@ a:hover,
   z-index: 2;
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1339px){ 
+@media only screen and (max-width: 1024px){ 
 
   #section-one {
     height: 800px;
@@ -322,7 +305,7 @@ a:hover,
 }
 
 
-@media only screen and (min-width: 375px) and (max-width: 720px){
+@media only screen and (max-width: 720px){
 
   #section-one {
     height: 450px;
@@ -338,7 +321,8 @@ a:hover,
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-   padding-bottom: 8px;
+    padding-bottom: 8px;
+    width: 60%;
   }
 
   .contact-bar .address{
@@ -493,41 +477,8 @@ a:hover,
 }
 
  }
-
-/*
-@media only screen and (min-width: 720px) and (max-width: 1111px) and (orientation: portrait) {
-  #section-one {
-   width: 100%;
-  }
-
-  .logopedaNav{
-    display: none;
-  }
-
-  .banner-contact{
-    padding-left: 200px;
-  }
-
-  .social-icons {
-    padding-right: 200px;
-    gap: 5px;
-  }
-
-  .in-section-one{
-    margin-left: 250px;
-  }
-
-  .btn-left{
-    left: 180px;
-  }
-
-  .btn-right{
-    right: 200px;
-  }
-
-  .navbar{}
+ @media only screen and (max-width: 1440px){
 
 
-}
 
- */
+ }

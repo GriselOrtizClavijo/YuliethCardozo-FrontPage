@@ -16,9 +16,7 @@
   display: none;
 }
 
-.menuIcon{
-  display: none;
-}
+
 
 .container-carousel{
   position: relative;
@@ -188,7 +186,7 @@ a:hover,
   padding-left: 20px;
 }
 
-.contact-item p a{
+.contact-item p{
   margin: 0;
   color: #FFFFFF;
   font-size: 15px;
@@ -351,9 +349,9 @@ a:hover,
 
   #section-one .navbar {
   position: absolute;
-  justify-content:flex-start;
+  justify-content:space-between;
   padding-left: 20px;
-  
+  padding-right: 20px;
 } 
 
  
@@ -389,12 +387,12 @@ a:hover,
 
 }
 
-.navbar a {
+.navbar .listNav {
   display: none;
 } 
 
 .bars_menu ul {
-  list-style-type: none; /* Esto elimina las viñetas */
+  list-style-type: none; 
   padding-top: 30px;
 }
 
@@ -421,27 +419,31 @@ a:hover,
     width: 70px;
     height: 70px;
     top: 6px;
-    left: 30px;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
   }
 
 /*section one*/
 .in-section-one{
-  margin-left: 80px;
-  top: 50%;
+  margin-left: 60px;
+  top: 45%;
 }
 
 .logopeda-img{
-  width: 270px;
-  height: 35px;
+  width: 170px;
+  height: 25px;
 }
 
 
 .text2-section-1{
-  font-size: 25px;
+  font-size: 16px;
+  font-weight: 200;
 }
 
  .text3-section-1{
-  font-size: 18px;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 /*Estilos carrusel*/
@@ -449,6 +451,17 @@ a:hover,
 .container-carousel{
   position: absolute;
   height: 450px;
+}
+
+
+.btn-left, 
+.btn-right{
+
+  top: 50%;
+  width: 35px;
+  height: 35px;
+
+
 }
 
 .img-white{

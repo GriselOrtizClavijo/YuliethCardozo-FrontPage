@@ -29,12 +29,10 @@ function Home() {
   
       const navbar = `<nav class= 'navbar '>
                         <div class='imgNavBar'>
+                            <a href="#section-one">
                             <img src=${logo} class='logo' alt='logo'/>
                             <img src=${logopedaSmall} class='logopedaNav' alt='logo'/>
-                        </div>
-
-                        <div class="imgNavBar">
-                        <img src="menu-icon.png" alt="Menú" class="menuIcon">
+                            </a>
                         </div>
                           <ul class="listNav">
                               <li class="nav_line"><a href="#section-one">Inicio</a></li>
@@ -59,20 +57,20 @@ function Home() {
       
       const bannerContact = `<div class='banner-contact'>
                               <div class="contact-bar">
-                                <div class="contact-item">
+                                <a href="https://maps.app.goo.gl/t5peeFNCpdte82o1A"class="contact-item">
                                   <img src=${direccion} class="icono address" alt="Dirección">
                                   <p class="address">C. de Pau Claris, 162, 8-5</p>
-                                </div>
+                                </a>
   
-                                <div class="contact-item">
+                                <a href="mailto:yuliethcardozo@barcelonalogopeda.com" class="contact-item">
                                   <img src=${email} class="icono" alt="Email">
-                                  <p><a href="mailto:yuliethcardozo@barcelonalogopeda.com">yuliethcardozo@barcelonalogopeda.com</a></p>
-                                </div>
+                                  <p>yuliethcardozo@barcelonalogopeda.com</p>
+                                </a>
   
-                                <div class="contact-item">
+                                <a href="tel:+34678436616" class="contact-item">
                                   <img src=${telefono} class="icono" alt="Teléfono">
-                                  <p><a href="tel:+34678436616">(+34) 678 43 66 16</a></p>
-                                </div>
+                                  <p>(+34) 678 43 66 16</p>
+                                </a>
                                 </div> 
                                
                                 <div class="social-icons">

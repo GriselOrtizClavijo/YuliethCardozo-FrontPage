@@ -17,7 +17,7 @@ function Footer(){
                         <img src=${linkedIn} alt="">
                     </div>
                     <div class='footerInf'>
-                        <p>Copyright 2023. Desarrollado por:</p>
+                        <p>Copyright 2023. Desarrollado por: Grisel Ortiz C. - Francy Vergara</p>
                     </div>
                 </div>
                     `

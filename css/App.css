@@ -72,8 +72,28 @@ body {
 
   }
 
+}
 
+@media only screen and (min-width: 375px) and (max-width: 720px){
 
+  .footerApp {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    text-align: center;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+   
+  }
 
-  
+  .footerSup img {
+    margin: 0 15px;
+  }
+  .footerInf{
+    font-size: 12px;
+    font-weight: 200;
+  }
+
 }

@@ -32,7 +32,7 @@ function AboutMe (){
                     <div class=text-content>
                       <p class='subtitle2'>DRA. Yulieth Cardozo</p>
                       <img src=${line} alt="line" class= 'line'/>
-                      <p class='description'>En 2009, completé mis estudios de logopedia y desde entonces me he especializado en áreas como terapia ABA, neurorehabilitación, terapia de voz, entre otras. Además, he trabajado en cargos asistenciales y de auditoría clínica en diversas organizaciones. En 2014, obtuve un MBA en Administración de Empresas. Actualmente, tengo mi propia consulta en Barcelona, en el centro Viusalut Medicina Integrativa, y también atiendo en Badalona. Mi objetivo es ofrecer un enfoque integral en el tratamiento logopédico y compartir mis conocimientos con pacientes y profesionales interesados en actualizarse en el campo.</p> 
+                      <p class='description'>Experta en la atención terapéutica de los trastornos de la comunicación humana y las disfunciones de la articulación temporomandibular, con 14 de experiencia laboral y formación continua en distintas áreas de la disciplina lo que me permite ofrecer una atención integral. Mi metodología es personalizada centrada en los intereses de los pacientes y con una mirada integradora permitiendo una mejora significativa en su calidad de vida. Me gustan los casos retos porque gratifican mi ejercicio profesional así que si necesitas ayuda logopédica contáctame.</p> 
                       <p class='subtitle2'>¿Porqué solicitar mi servicio?</p>
                         <ul>
                           <li class='description'>Ofrezco una terapia personalizada, pensada para cada paciente de manera diferente, centrada en intereses, fortalezas y debilidades.</li>

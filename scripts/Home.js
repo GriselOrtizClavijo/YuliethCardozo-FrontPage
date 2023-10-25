@@ -62,9 +62,9 @@ function Home() {
                                   <p class="address">C. de Pau Claris, 162, 8-5</p>
                                 </a>
   
-                                <a href="mailto:yuliethcardozo@barcelonalogopeda.com" class="contact-item">
+                                <a href="mailto:info@barcelonalogopeda.com" class="contact-item">
                                   <img src=${email} class="icono" alt="Email">
-                                  <p>yuliethcardozo@barcelonalogopeda.com</p>
+                                  <p>info@barcelonalogopeda.com</p>
                                 </a>
   
                                 <a href="tel:+34678436616" class="contact-item">

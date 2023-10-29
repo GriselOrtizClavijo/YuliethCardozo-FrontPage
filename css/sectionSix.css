@@ -71,17 +71,11 @@
 }
 
 
-.tittle-card-Small{
-    font-size: 20px;
-    font-weight: bolder;
-    color: #545965;
-    bottom: 0;
-}
-
 .text-card-Small{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: lighter;
-    padding-bottom: 3px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .formContact .button-card-six {
@@ -127,12 +121,12 @@
 }
 
 .img-line{
-    width: 70%;
+    width: 100%;
     transform: rotate(0deg);
 }
 
 /* Para tabletas en orientación horizontal */
-@media only screen and (min-width: 1024px) and (max-width: 1339px){
+@media only screen and (max-width: 1024px){
 
     #section-six{
         height: 680px;
@@ -170,16 +164,15 @@
 
     .responsive-version, .container-img-card-small-card-small{
         justify-content: center;
-        width: 100%;
+        width: 110%;
     }
 
-    .tittle-card-Small{
-        font-size: 18px;
-        text-align: center;
+    .container-img-card-small-card-small {
+        padding-right: 0px;
     }
     
-    .card-small, .text-card-Small{
-        font-size: 12px;
+    .card-small .text-card-Small{
+        font-size: 15px;
     }
 
     .card-small, .img-contact {
@@ -204,7 +197,8 @@
 
 
 
-@media only screen and (min-width: 375px) and (max-width: 720px){
+
+@media only screen and (max-width: 720px){
     #section-six{
         height: 880px;
         justify-content: center;
@@ -213,6 +207,10 @@
 
     .cards-six{
         display: none;
+    }
+    .container-img-card-small-card-small .card-small{
+        display: flex;
+        flex-direction: column;
     }
 
     #section-six .formContact .title-section-two{
@@ -225,7 +223,7 @@
         display: block;
         justify-content: center;
         align-items: center;
-        padding: 50px;
+        padding: 50px ;
     }
 
 
@@ -270,10 +268,8 @@
       
     .img-line {
     width: 200px;
-    transform: rotate(0deg);
+    transform: rotate(180deg);
     height: 100%;
     margin-left: 70px;
     }
-
-
 }

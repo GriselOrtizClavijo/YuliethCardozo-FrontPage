@@ -69,51 +69,6 @@
     padding-left: 30px
 }
 
- /* Para tabletas en orientación horizontal */
- /* @media only screen and (min-width: 1366px) and (max-width: 1439px) { 
-    #section-three{
-        height: 868px;
-    }
-
-    #section-three .div-title .title-section-two{
-        top: 100px;
-    }
-    
-    .container-cards{
-        gap: 40px;
-    }
-    
-    .unit-card{
-        position: relative;
-    }
-    
-    .rec-card{
-        position: absolute;
-
- 
-        height: 100px;
-    }
-    
-    .sub-card{
-        text-align: left;
-        width: 250px;
-        font-size: 18px;
-        padding-top: 10px;
-        padding-left: 30px;
-        color:#545965;
-    }
-    
-    .text-card{
-        padding-top: 10px;
-        font-size: 12px;
-        text-align: justify;
-        width: 250px;
-        padding-left: 30px
-    }
-    
-
-  
-  } */
 
   @media only screen and (max-width: 1024px) {
 
@@ -144,7 +99,7 @@
         height: 100%
     }
     .container-cards{
-        padding-top: 100px;
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;

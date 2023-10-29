@@ -11,7 +11,7 @@
   display:none;
 }
 
- .nav-toggle{
+#section-one .nav-toggle{
   display: none;
 }
 
@@ -340,18 +340,24 @@ a:hover,
     height: 18px;
   }
   
-  .contact-item p a{
+
+  .contact-item p {
     font-size: 12px;
+    font-weight: lighter;
   }
   
   .social-icons a {
-    padding-right: 15px;
+    padding-top: 20px;
+    padding-right: 5px;
+    gap: 5px;
   }
 
   .iconors{
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
   }
+
+
 
   /*Barra de navegación*/
 

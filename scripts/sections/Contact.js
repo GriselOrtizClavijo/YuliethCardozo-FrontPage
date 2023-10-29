@@ -104,19 +104,20 @@ const responsiveCards = `
                                 <div class="container-img-card-small-card-small">       
         
                                         <div class='card-small' >
-                                                <div class="contact-small-card" >
+                                                <div class="contact-small-card">
                                                         <a href="https://maps.app.goo.gl/t5peeFNCpdte82o1A">
                                                         <img src =${direccion} class="img-contact"/> 
-                                                        <div class="text-container">     
-                                                        <h5 class= 'text-card-Small'>C. de Pau Claris, 162, 8-5</h5>
+                                                                <div class="text-container">     
+                                                                <h5 class= 'text-card-Small'>C. de Pau Claris, 162, 8-5</h5>
+                                                                </div>
                                                         </a>
                                                 </div>
-                                        </div>
+                                    
 
-                                        <div class= "line-container">        
-                                                <img src =${line}  class="img-line"/> 
-                                        </div>
-
+                                                <div class= "line-container">        
+                                                        <img src =${line}  class="img-line"/> 
+                                                </div>
+                                     
                                                 <div class="contact-small-card">
                                                         <a href="tel:+34678436616">
                                                         <img src =${telefono} class="img-contact"/> 
@@ -125,21 +126,23 @@ const responsiveCards = `
                                                                 </div>
                                                         </a>
                                                 </div>
+                                      
 
-                                        <div class= "line-container">  
-                                                <img src =${line} class="img-line"/> 
-                                        </div>
+                                                <div class= "line-container">  
+                                                        <img src =${line} class="img-line"/> 
+                                                </div>
 
+                                        
                                                 <div class="contact-small-card">
                                                         <a href="mailto:info@barcelonalogopeda.com">
                                                         <img src =${email} class="img-contact mail"/>
-                                                                <div class="text-container"> 
-                                                                <h5 class= 'text-card-Small'>info@barcelonalogopeda.com</h5>
-                                                                </div>
+                                                        <div class="text-container"> 
+                                                        <h5 class= 'text-card-Small'>info@barcelonalogopeda.com</h5>
+                                                        </div>
                                                         </a>
                                                 </div>
-
                                         </div>
+                                    
                                 </div>
                         </div>
                         `

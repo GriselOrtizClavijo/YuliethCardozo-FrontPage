@@ -200,6 +200,7 @@
 
 @media only screen and (max-width: 720px){
     #section-six{
+
         height: 880px;
         justify-content: center;
         align-items:center;
@@ -208,10 +209,22 @@
     .cards-six{
         display: none;
     }
-    .container-img-card-small-card-small .card-small{
+
+    .responsive-version{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .responsive-version .container-img-card-small-card-small .card-small{
+        padding: 0px;
         display: flex;
         flex-direction: column;
+      
+    
     }
+
 
     #section-six .formContact .title-section-two{
         font-size: 35px;
@@ -219,13 +232,13 @@
         margin-top: 20px;
     }
 
-    .responsive-version{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        padding: 50px ;
-    }
+    .contact-small-card{
+        display: flex;
+        flex-direction: column;
+       align-self:flex-start;
 
+
+    }
 
     .formContact{
         margin-bottom: 20px;
@@ -235,20 +248,14 @@
     .text-card-Small{
         font-size: 12px;
         font-weight: 200;
-    }
 
-    .tittle-card-Small{
-        font-size: 18px;
     }
-    
  
 
-    .card-small, .img-contact {
-        margin-bottom: 0px;
-        margin-left: 20px;
-        margin-top: 0px;
-        margin-right: 20px;
-      
+    .card-small .img-contact {
+
+        margin: 10px 20px 0px;
+
       }
 
       #section-six  .text-container{
@@ -258,18 +265,21 @@
         flex-direction: column;
     }
     
-       .contact-small-card a{
+    .contact-small-card a{
         display: flex;
-        width: 300px;
-        padding-top: 20px;
-        
-    }
+    } 
 
       
     .img-line {
-    width: 200px;
+    width: 220px;
     transform: rotate(180deg);
     height: 100%;
-    margin-left: 70px;
+    margin-left: 0px;
+    left: 0;
+    }
+
+    .line-container{
+        align-self: flex-start;
+        margin-left: 70px;
     }
 }

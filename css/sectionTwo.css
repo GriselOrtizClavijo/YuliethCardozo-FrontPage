@@ -95,8 +95,8 @@
 
   }
 
- /* Para tabletas en orientación horizontal */
- @media only screen and (min-width: 1024px) and (max-width: 1339px) { 
+
+ @media only screen and (max-width: 1024px)  { 
  
   .card {
     display: block;
@@ -120,58 +120,8 @@
   
   }
 
-  /* .text-content {
-    margin-left: 50px;
-    font-size: 13px;
-
-  }
-
-  .subtitle2{
-    font-size: 18px;
-    margin-top: 10px;
-  }
-
-   .figure{
-    width: 350px;
-    height: 450px;
-    margin-top: 250px;
-  } */
-
-
-}
-
-/* 
-@media only screen and (min-width: 1112px) and (max-width: 1365px) {
-  
-  .card {
-    height: 900px;
-  }
-
-  .textInitial{
-    margin-top: 5px;
-  }
-  
-  .text-content {
-      margin-top:200px;
-  }
-  
- .figure{
-    margin-top: 200px;
-  } 
-  
-  .polygon{
-    top:0;
-    align-self: flex-start;
-    margin-right: -70px;
-  
-  } 
-  .subtitle2{
-    line-height: 2;
-  }
-
-} */
-
-@media only screen and (min-width: 375px) and (max-width: 720px){
+ }
+@media only screen and (max-width: 720px){
 
   .card {
     display: block;
@@ -213,20 +163,58 @@
   }
 
   .line{
-    max-width: 340px;
+    max-width: 300px;
   }
 
   
 }
 
 
+@media only screen and (max-width: 400px){
+  .card {
+    display: block;
+    
+  }
 
-/* 
-@media only screen and (min-width: 375px) and (max-width: 720px) {
+  .div-title{
+    width: 300px;
+    top: 80px;
   
+}
+  
+  .textInitial{
+    font-size: 15px;
+    line-height: normal;
+  }
+  
+  .text-content {
+      margin: -30px auto 0;
+      font-size: 12px;
+      width: 350px;
+  }
+  
+  .figure{
+    margin-top: 180px;
+    width: 250px;
+    height: 350px;
+  }
+  
+  .polygon{
+    transform: rotate(90deg);
+    margin-right: 0px;
+  }  
 
+  .subtitle2{
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 15px;
+  }
 
+  .line{
+    max-width: 300px;
+  }
 
-}*/
+  
+}
 
 

@@ -89,3 +89,39 @@
     
 
 }
+
+@media only screen and (max-width: 400px){
+
+    #section-five{
+        height: 350px;
+        }
+    
+        #section-five .card-sec-five {  
+            justify-content: space-around; 
+    
+        }
+    
+        #section-five  .text-testimonial{
+            width: 300px;
+            font-size: 12px;
+            height: 120px;
+            line-height: 20px;
+        }
+    
+        #section-five .title-section-two{
+            font-size: 35px;
+            font-weight: 300;
+            margin-top: 70px;
+        }
+    
+        #section-five .imgButton{
+            margin-top: 15px
+          ;
+        }
+    
+        .imgBack{
+            height: 350px;
+        }
+        
+    
+}

@@ -487,3 +487,184 @@ a:hover,
   height: 131px;
 }
 }
+
+@media only screen and (max-width: 720px){
+
+  #section-one {
+    height: 550px;
+    width: 100%;
+  }
+
+  .banner-contact{
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right:30px;
+  }
+  
+  .contact-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 8px;
+    width: 60%;
+  }
+
+  .contact-bar .address{
+    display: none;
+  }
+  
+  .icono {
+    padding-right: 8px;
+    padding-left: 0px;
+    width: 25px;
+    height: 18px;
+  }
+  
+
+  .contact-item p {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+  
+  .social-icons a {
+    padding-top: 20px;
+    padding-right: 5px;
+    gap: 5px;
+  }
+
+  .iconors{
+    width: 15px;
+    height: 15px;
+  }
+
+
+
+  /*Barra de navegación*/
+
+  #section-one .navbar {
+  width: 100%;
+  position: absolute;
+  justify-content:space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+
+ 
+.bars_menu{
+  display: none;
+  position: fixed;
+  background-color:#008391;
+  z-index: 120;
+  margin-top: 100px;
+  float: right;
+  right: 0 ;
+  line-height: 50px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  transition: left 2s; 
+}
+
+.bars_menu.show {
+  display: block;
+  width: 45%
+}
+
+.bars_menu ul li a{
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+#section-one .nav-toggle{
+  display: flex;
+  border: none;
+  background-color: transparent; 
+  padding-right: 15px;
+}
+
+.navbar .listNav {
+  display: none;
+} 
+
+.bars_menu ul {
+  list-style-type: none; 
+  padding-top: 30px;
+}
+
+.bars_menu .close-icon{
+  position: absolute;
+  font-weight: 200;
+  font-size: 30px;
+  color: #FFFFFF;
+  right: 0;
+  margin-right: 20px;
+ 
+}
+.bars_menu .line{
+  position: absolute;
+  z-index: 400;
+  width:180px; 
+  height: 1px;
+  left: 0;
+  border: .1px solid rgba(255, 255, 255, 0.199);
+}
+
+  /* Estilos para el logotipos de la barra de navegación */
+  .logo {
+    width: 60px;
+    height: 60px;
+    top: 6px;
+    left: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+/*section one*/
+.in-section-one{
+  margin-left: 60px;
+  top: 45%;
+}
+
+.logopeda-img{
+  width: 170px;
+  height: 25px;
+}
+
+
+.text2-section-1{
+  font-size: 16px;
+  font-weight: 200;
+}
+
+ .text3-section-1{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/*Estilos carrusel*/
+
+.container-carousel{
+  position: absolute;
+  height: 550px;
+}
+
+
+.btn-left, 
+.btn-right{
+
+  top: 50%;
+  width: 35px;
+  height: 35px;
+
+
+}
+
+.img-white{
+  height: 106px;
+}
+
+.img-green{
+  height: 131px;
+}
+}

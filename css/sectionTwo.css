@@ -185,18 +185,19 @@
   .textInitial{
     font-size: 15px;
     line-height: normal;
+    margin-top: 15px;
   }
   
   .text-content {
       margin: -30px auto 0;
       font-size: 12px;
-      width: 350px;
+      width: 300px;
   }
   
   .figure{
-    margin-top: 180px;
-    width: 250px;
-    height: 350px;
+    margin-top: 230px;
+    width: 230px;
+    height: 300px;
   }
   
   .polygon{
@@ -211,7 +212,7 @@
   }
 
   .line{
-    max-width: 300px;
+    max-width: 250px;
   }
 
   

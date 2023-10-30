@@ -362,7 +362,7 @@ a:hover,
   /*Barra de navegación*/
 
   #section-one .navbar {
-    width: 100%;
+  width: 100%;
   position: absolute;
   justify-content:space-between;
   padding-left: 20px;
@@ -395,7 +395,7 @@ a:hover,
   margin-left: 20px;
 }
 
-.nav-toggle{
+#section-one .nav-toggle{
   display: flex;
   border: none;
   background-color: transparent; 

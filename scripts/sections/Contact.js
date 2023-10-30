@@ -82,7 +82,7 @@ const responsiveCards = `
                                         <h3 class='title-section-two'>CONTACTO</h3>
                                 </div>
                                 <div class="block">
-                                        <label for="nombreApellido">Nombre y Apellido:</label>
+                                        <label for="nombreApellido">Nombre y Apellidos:</label>
                                         <input type="text" name="nombreApellido" id="nombreApellido"  required>           
                                 </div>
                                 <div >                

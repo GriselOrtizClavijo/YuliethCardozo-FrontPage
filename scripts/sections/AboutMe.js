@@ -30,7 +30,7 @@ function AboutMe (){
                 <figure >
                   <div >
                     <div class=text-content>
-                      <p class='subtitle2'>DRA. Yulieth Cardozo</p>
+                      <p class='subtitle2'>Dra. Yulieth Cardozo</p>
                       <img src=${line} alt="line" class= 'line'/>
                       <p class='description'>Experta en la atención terapéutica de los trastornos de la comunicación humana y las disfunciones de la articulación temporomandibular, con 14 de experiencia laboral y formación continua en distintas áreas de la disciplina lo que me permite ofrecer una atención integral. Mi metodología es personalizada centrada en los intereses de los pacientes y con una mirada integradora permitiendo una mejora significativa en su calidad de vida. Me gustan los casos retos porque gratifican mi ejercicio profesional así que si necesitas ayuda logopédica contáctame.</p> 
                       <p class='subtitle2'>¿Porqué solicitar mi servicio?</p>

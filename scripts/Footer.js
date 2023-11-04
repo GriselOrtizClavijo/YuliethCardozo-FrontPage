@@ -12,9 +12,9 @@ function Footer(){
     const footerContent =  `
                 <div class='footerApp'>    
                     <div class='footerSup'>
-                        <img src=${facebook} alt="">
-                        <img src=${instagram} alt="">
-                        <img src=${linkedIn} alt="">
+                        <a href="/testimonios"><img src=${facebook} alt="Facebook" class="iconors"></a>
+                        <a href="/reservar"><img src=${instagram} alt="Instagram" class="iconors"></a>
+                        <a href="https://www.linkedin.com/in/logopedayuliethcardozo"><img src=${instagram} alt="Instagram" class="iconors"></a>
                     </div>
                     <div class='footerInf'>
                         <p>Copyright 2023. Desarrollado por: Grisel Ortiz C. - Francy Vergara</p>

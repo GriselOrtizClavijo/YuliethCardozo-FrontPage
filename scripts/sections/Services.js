@@ -3,10 +3,10 @@ function Services () {
 
    //Rutas de  imágenes
    const imgSup = './assets/imgSupSec3.png';
-   const photoOne = './assets/photo1Sec3.png';
-   const photoTwo = './assets/photo2Sec3.png';
-   const photoThree = './assets/photo3Sec3.png';
-   const photoFour = './assets/photo4Sec3.png';
+   const photoOne = './assets/photo1Sec3.jpg';
+   const photoTwo = './assets/photo2Sec3.jpg';
+   const photoThree = './assets/photo3Sec3.jpg';
+   const photoFour = './assets/photo4Sec3.jpeg';
    const recSecThree = './assets/RecSec3.png';
 
   // Crear elementos HTML

@@ -2,7 +2,7 @@ function Home() {
 
     //Rutas de  imágenes
     
-    const sliderOne = './assets/banner.png';
+    const sliderOne = './assets/banner.jpeg';
     const sliderTwo = './assets/banner2.png';
     const sliderThree = './assets/banner3.png';
     const sliderFour = './assets/banner4.jpeg';
@@ -76,7 +76,7 @@ function Home() {
                                 <div class="social-icons">
                                   <a href="/testimonios"><img src=${facebook} alt="Facebook" class="iconors"></a>
                                   <a href="/reservar"><img src=${instagram} alt="Instagram" class="iconors"></a>
-                                  <a href="/contacto"><img src=${linkedIn} alt="LinkedIn" class="iconors"></a>
+                                  <a href="https://www.linkedin.com/in/logopedayuliethcardozo"><img src=${linkedIn} alt="LinkedIn" class="iconors"></a>
                                 </div>
                               `
     

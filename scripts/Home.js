@@ -3,8 +3,8 @@ function Home() {
     //Rutas de  imágenes
     
     const sliderOne = './assets/banner.jpeg';
-    const sliderTwo = './assets/banner2.png';
-    const sliderThree = './assets/banner3.png';
+    const sliderTwo = './assets/banner2.jpg';
+    const sliderThree = './assets/banner3.jpg';
     const sliderFour = './assets/banner4.jpeg';
   
     const prev = './assets/left.png';

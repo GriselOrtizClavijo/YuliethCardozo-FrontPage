@@ -6,7 +6,7 @@ function Services () {
    const photoOne = './assets/photo1Sec3.jpg';
    const photoTwo = './assets/photo2Sec3.jpg';
    const photoThree = './assets/photo3Sec3.jpg';
-   const photoFour = './assets/photo4Sec3.jpeg';
+   const photoFour = './assets/photo4Sec3.png';
    const recSecThree = './assets/RecSec3.png';
 
   // Crear elementos HTML

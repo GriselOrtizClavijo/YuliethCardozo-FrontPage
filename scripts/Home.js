@@ -5,7 +5,7 @@ function Home() {
     const sliderOne = './assets/banner.jpeg';
     const sliderTwo = './assets/banner2.jpg';
     const sliderThree = './assets/banner3.jpg';
-    const sliderFour = './assets/banner4.jpeg';
+    const sliderFour = './assets/banner4.jpg';
   
     const prev = './assets/left.png';
     const next = './assets/rigth.png';
